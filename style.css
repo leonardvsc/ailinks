@@ -47,22 +47,33 @@ header div img {
   padding: 1.2rem;
 }
 
-section.title h1 {
+.title h1 {
   color: #ececf1;
   font-size: 3.2rem;
   font-weight: 600;
+  text-align: center;
 }
 
 .ia-blocks {
-  display: flex;
-  flex-direction: row;
-  gap: 1.4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.6rem 1.6rem;
+  width: 100%; /* Define a largura como 100% */
+  max-width: 100%; /* Pode ser necessário em alguns casos */
+  height: 100%; /* Define a altura como 100% */
 }
 
 .ia-tools {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.ia-tools h4 {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: #cbcbcb;
 }
 
 .tools {
@@ -161,8 +172,8 @@ input::placeholder {
 }
 
 /* MEDIA QUERIES */
-/* ### MAX 700PX ### */
-@media screen and (max-width: 700px) {
+/* ### MAX 800PX ### */
+@media screen and (max-width: 800px) {
   .ia-blocks {
     display: flex;
     flex-direction: column;
