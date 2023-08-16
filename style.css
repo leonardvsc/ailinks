@@ -183,6 +183,11 @@ footer a {
   text-decoration: none;
 }
 
+/* Adicione este estilo */
+footer p::after {
+  content: '\2665';
+}
+
 .tools,
 .prompt button,
 .prompt > div:nth-child(2),
