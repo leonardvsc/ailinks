@@ -89,7 +89,7 @@ header div img {
 }
 
 .tools:hover {
-  background: #303139;
+  background: #353740;
   border: 1px solid #19c37d;
 }
 
@@ -107,7 +107,7 @@ header div img {
 }
 
 .icons .ph-thin {
-  color: #ffffff;
+  color: #19c37d;
 }
 
 i {
