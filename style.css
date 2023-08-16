@@ -163,7 +163,12 @@ span {
 }
 
 .prompt > div:nth-child(2):hover {
-  background: #ececf1;
+  border-color: #19c37d;
+  background: #19c37d;
+}
+
+.prompt > div:nth-child(2):hover i {
+  color: #fff;
 }
 
 button,
