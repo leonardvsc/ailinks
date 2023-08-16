@@ -147,6 +147,7 @@ span {
   padding: 1.6rem;
   align-items: center;
   gap: 1.6rem;
+  border: 1px solid #565869;
   border-radius: 1.6rem;
   background: #202123;
 }
