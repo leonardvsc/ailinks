@@ -30,6 +30,8 @@ main {
 }
 
 .container {
+  width: 100%;
+  max-width: 980px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,16 +72,22 @@ header div img {
 }
 
 .ia-tools {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
 }
 
 .ia-tools h4 {
+  width: 100%;
   text-align: center;
   font-size: 1.6rem;
   font-weight: 200;
-  color: #cbcbcb;
+  color: #ececf1;
+  background: #565869;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.174);
 }
 
 .tools {
@@ -155,7 +163,6 @@ span {
 }
 
 .prompt > div:nth-child(2) i {
-  color: #19c37d;
   transition: color 0.3s;
 }
 
@@ -215,9 +222,11 @@ footer a {
 }
 
 /* MEDIA QUERIES */
-/* ### MAX 800PX ### */
-@media screen and (max-width: 800px) {
+/* ### MAX 820PX ### */
+@media screen and (max-width: 820px) {
   .container {
+    width: 100%;
+    max-width: 500px;
     gap: 4rem;
   }
   .ia-blocks {
