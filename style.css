@@ -37,6 +37,10 @@ main {
   gap: 4rem;
 }
 
+.ia-blocks {
+  margin-top: 4rem;
+}
+
 header {
   margin-bottom: -1.6rem;
 }
@@ -59,14 +63,12 @@ header div img {
   grid-template-columns: 1fr 1fr;
   gap: 1.6rem 1.6rem;
   width: 100%; /* Define a largura como 100% */
-  max-width: 100%; /* Pode ser necessário em alguns casos */
-  height: 100%; /* Define a altura como 100% */
 }
 
 .ia-tools {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1.6rem;
 }
 
 .ia-tools h4 {
@@ -174,13 +176,23 @@ input::placeholder {
 /* MEDIA QUERIES */
 /* ### MAX 800PX ### */
 @media screen and (max-width: 800px) {
+  .container {
+    gap: 4rem;
+  }
   .ia-blocks {
     display: flex;
     flex-direction: column;
+    margin-top: 2rem;
   }
+
+  
 
   .prompt {
     display: flex;
     flex-direction: column;
+  }
+
+  .ia-blocks:nth-child(1) {
+    margin-top: 4rem;
   }
 }
