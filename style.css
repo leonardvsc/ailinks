@@ -61,7 +61,7 @@ header div img {
 .ia-blocks {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  gap: 2rem;
   width: 100%; /* Define a largura como 100% */
 }
 
@@ -176,13 +176,11 @@ footer {
   font-size: 1.6rem;
   color: #565869;
   margin: 4rem 0;
-  font-family: Arial, sans-serif;
 }
 
 footer a {
   color: #565869;
   text-decoration: none;
-  font-family: Arial, sans-serif;
 }
 
 .tools,
@@ -201,7 +199,7 @@ footer a {
   .ia-blocks {
     display: flex;
     flex-direction: column;
-    margin-top: 1.6rem;
+    margin-top: 2rem;
   }
 
   .tools {
