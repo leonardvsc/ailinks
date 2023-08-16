@@ -176,12 +176,12 @@ footer {
   font-size: 1.6rem;
   color: #565869;
   margin: 4rem 0;
-  font-family: Arial, sans-serif;
 }
 
 footer a {
   color: #565869;
   text-decoration: none;
+  font-family: Arial, sans-serif;
 }
 
 .tools,
