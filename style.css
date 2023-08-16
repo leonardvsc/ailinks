@@ -172,6 +172,17 @@ input::placeholder {
   color: #6b6c7b;
 }
 
+footer {
+  font-size: 1.6rem;
+  color: #fff;
+  margin: 4rem 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .tools,
 .prompt button,
 .prompt > div:nth-child(2),
