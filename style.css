@@ -33,7 +33,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6rem;
+  padding: 2rem;
   gap: 4rem;
 }
 
@@ -48,7 +48,7 @@ header div img {
 }
 
 section.title h1 {
-  color: #ECECF1;
+  color: #ececf1;
   font-size: 3.2rem;
   font-weight: 600;
 }
@@ -85,7 +85,6 @@ section.title h1 {
   gap: 0.8rem;
   border-radius: 1.2rem;
   background: #202123;
-  
 }
 
 .icons .ph {
@@ -148,11 +147,10 @@ input {
   font-size: 1.8rem;
   font-weight: 400;
   outline: none;
-  
 }
 
 input::placeholder {
-  color: #6B6C7B;
+  color: #6b6c7b;
 }
 
 .tools,
@@ -160,4 +158,18 @@ input::placeholder {
 .prompt > div:nth-child(2),
 .ph-plus-circle {
   cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+/* ### MAX 700PX ### */
+@media screen and (max-width: 700px) {
+  .ia-blocks {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .prompt {
+    display: flex;
+    flex-direction: column;
+  }
 }
