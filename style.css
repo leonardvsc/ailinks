@@ -176,16 +176,12 @@ footer {
   font-size: 1.6rem;
   color: #565869;
   margin: 4rem 0;
+  font-family: Arial, sans-serif; /* Ou outra fonte que não inclua o emoji de coração */
 }
 
 footer a {
   color: #565869;
   text-decoration: none;
-}
-
-/* Adicione este estilo */
-footer p::after {
-  content: '\2665';
 }
 
 .tools,
