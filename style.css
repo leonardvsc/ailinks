@@ -61,7 +61,7 @@ header div img {
 .ia-blocks {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 8rem;
   width: 100%; /* Define a largura como 100% */
 }
 
@@ -176,7 +176,6 @@ footer {
   font-size: 1.6rem;
   color: #565869;
   margin: 4rem 0;
-  font-family: Arial, sans-serif; /* Ou outra fonte que não inclua o emoji de coração */
 }
 
 footer a {
@@ -201,6 +200,7 @@ footer a {
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    gap: 2rem;
   }
 
   .tools {
