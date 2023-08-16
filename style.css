@@ -224,7 +224,6 @@ footer a {
   .container {
     width: 100%;
     max-width: 480px;
-    gap: 4rem;
   }
   .ia-blocks {
     display: flex;
