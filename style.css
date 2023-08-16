@@ -61,7 +61,7 @@ header div img {
 .ia-blocks {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.6rem 1.6rem;
+  gap: 4rem;
   width: 100%; /* Define a largura como 100% */
 }
 
