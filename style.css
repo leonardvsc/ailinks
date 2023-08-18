@@ -18,8 +18,6 @@
 }
 
 body {
-  overflow: scroll; /* Use "scroll" para garantir a rolagem, mesmo que a barra esteja oculta */
-  scrollbar-width: none; /* Para navegadores que suportam a propriedade */
   background: #353740;
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.6rem;
