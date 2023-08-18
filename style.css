@@ -182,7 +182,8 @@ span {
   text-decoration: none;
   font-weight: 400;
   color: #8e8ea0;
-  
+  width: 100%;
+  padding: 1.5rem;
 }
 
 .container-table-links ul li a span {
