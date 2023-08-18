@@ -209,7 +209,12 @@ span {
   font-weight: 400;
   color: #8e8ea0;
   width: 100%;
-  padding: 1.5rem;
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+}
+
+.container-table-links ul li a:hover{
+  color: #fff;
 }
 
 .container-table-links ul li a span {
