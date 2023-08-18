@@ -268,3 +268,10 @@ footer a {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .container-table-links ul {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
