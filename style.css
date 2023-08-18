@@ -163,7 +163,7 @@ span {
 
 .container-table-links ul {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2rem;
   padding-inline-start: 0;
   width: 100%; /* Define a largura como 100% */
@@ -238,11 +238,6 @@ footer a {
     width: 100%;
   }
 
-  .prompt {
-    display: flex;
-    flex-direction: column;
-  }
-
   .ia-blocks:nth-child(1) {
     margin-top: 4rem;
   }
@@ -255,17 +250,9 @@ footer a {
     padding: 0 0 2rem 0;
   }
 
-  .container-table-links {
-    display: block;
-  }
-
   .container-table-links ul {
-    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .prompt > div:nth-child(2) {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
 }
