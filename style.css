@@ -237,7 +237,7 @@ footer a {
 @media screen and (max-width: 820px) {
   .container {
     width: 100%;
-    max-width: 44rem;
+    max-width: 480px;
   }
   .ia-blocks {
     display: flex;
