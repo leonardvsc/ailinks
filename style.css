@@ -36,7 +36,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8rem 2rem 0 2rem;
+  padding: 4rem 2rem 0 2rem;
   gap: 4rem;
 }
 
@@ -49,6 +49,8 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+
+  margin-top: 4rem;
 }
 
 header i {
