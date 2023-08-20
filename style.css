@@ -43,7 +43,6 @@ main {
 }
 
 .container {
-  width: 100%;
   max-width: 1100px;
   display: flex;
   flex-direction: column;
@@ -69,8 +68,6 @@ header i {
   color: var(--color-green-01);
   animation: flip 5s ease-in-out infinite;
 }
-
-
 
 .title h1 {
   color: #ececf1;
@@ -227,7 +224,7 @@ span {
   font-size: 1.2rem;
   text-decoration: none;
   font-weight: 400;
-  color: #8e8ea0;
+  color: var(--color-gray-03);
   width: 100%;
   padding: 1.6rem;
   border-radius: 1.6rem;
@@ -268,7 +265,6 @@ footer a {
 /* ### MAX 820PX ### */
 @media screen and (max-width: 820px) {
   .container {
-    width: 100%;
     max-width: 580px;
   }
 
