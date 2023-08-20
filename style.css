@@ -67,18 +67,10 @@ header i {
   align-items: center;
   font-size: 4rem;
   color: var(--color-green-01);
-  animation: flip 3s linear infinite;
-  transform-style: preserve-3d;
+  animation: flip 5s ease-in-out infinite;
 }
 
-@keyframes flip {
-  0% {
-    transform: perspective(800px) rotateY(0deg);
-  }
-  100% {
-    transform: perspective(800px) rotateY(360deg);
-  }
-}
+
 
 .title h1 {
   color: #ececf1;
@@ -315,5 +307,25 @@ footer a {
   .container-table-links ul {
     display: grid;
     grid-template-columns: 1fr;
+  }
+}
+
+/* EFEITOS KEYFRAME */
+
+@keyframes flip {
+  0% {
+    transform: perspective(800px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(800px) rotateY(360deg);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
   }
 }
