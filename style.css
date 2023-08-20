@@ -320,12 +320,3 @@ footer a {
     transform: perspective(800px) rotateY(360deg);
   }
 }
-
-@keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-}
