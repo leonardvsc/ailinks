@@ -67,6 +67,17 @@ header i {
   align-items: center;
   font-size: 4rem;
   color: var(--color-green-01);
+  animation: flip 3s linear infinite;
+  transform-style: preserve-3d;
+}
+
+@keyframes flip {
+  0% {
+    transform: perspective(800px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(800px) rotateY(360deg);
+  }
 }
 
 .title h1 {
@@ -120,7 +131,7 @@ header i {
 .tools div {
   display: flex;
   align-items: center;
-  gap: .6rem;
+  gap: 0.6rem;
 }
 
 .icons {
@@ -171,11 +182,9 @@ header i {
 }
 
 .arrow {
-  padding: 0 .6rem 0 0;
+  padding: 0 0.6rem 0 0;
   color: var(--color-gray-03);
 }
-
-
 
 /* ------- SPAN--------  */
 
