@@ -144,7 +144,7 @@ header i {
 }
 
 .tools div p {
-  color: #8e8ea0;
+  color: var(--color-gray-03);
   font-size: 1.4rem;
   font-weight: 600;
 }
@@ -166,8 +166,13 @@ header i {
   color: #fff;
 }
 
+.tools:hover .arrow {
+  color: var(--color-green-01);
+}
+
 .arrow {
   padding: 0 .6rem 0 0;
+  color: var(--color-gray-03);
 }
 
 
