@@ -86,7 +86,6 @@ header i {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2rem;
-  width: 100%;
 }
 
 .ia-tools {
@@ -124,6 +123,26 @@ header i {
   gap: .6rem;
 }
 
+.icons {
+  min-width: 4rem;
+  min-height: 4rem;
+  padding: 0.6rem;
+  gap: 0.8rem;
+  border-radius: 1.2rem;
+  background: #40414f;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.icons .ph-thin {
+  color: #19c37d;
+}
+
+.icons i {
+  font-size: 3.2rem;
+  color: var(--color-gray-03);
+  transition: color 0.3s;
+}
+
 .tools div p {
   color: #8e8ea0;
   font-size: 1.4rem;
@@ -147,26 +166,8 @@ header i {
   color: #fff;
 }
 
-
-
-.icons {
-  min-width: 4rem;
-  min-height: 4rem;
-  padding: 0.6rem;
-  gap: 0.8rem;
-  border-radius: 1.2rem;
-  background: #40414f;
-  transition: border-color 0.3s, background-color 0.3s;
-}
-
-.icons .ph-thin {
-  color: #19c37d;
-}
-
-.icons i {
-  font-size: 3.2rem;
-  color: var(--color-gray-03);
-  transition: color 0.3s;
+.arrow {
+  padding: 0 .6rem 0 0;
 }
 
 
