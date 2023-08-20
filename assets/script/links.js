@@ -5,7 +5,7 @@
 
   // Observar cliques nos botões
   document.addEventListener("DOMContentLoaded", function() {
-    var buttons = document.querySelectorAll(".chatgpt, .logoai, .lovoai, .veedio, .murfai, .elevenlabs")
+    var buttons = document.querySelectorAll(".chatgpt, .jasper, .logoai, .lovoai, .veedio, .murfai, .elevenlabs")
 
     buttons.forEach(function(button) {
       button.addEventListener("click", function() {
